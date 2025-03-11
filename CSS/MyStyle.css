@@ -1,0 +1,274 @@
+/******************************************************/
+
+/********************* Home Page **********************/
+
+html body {
+    margin: 0px;
+    padding: 0px;
+}
+.bar-pages {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #00BAFF;
+}
+.bar-pages-link:hover {
+    color: white;
+}
+.logo{
+    float: right;
+    width: 68px;
+    height: auto;
+    margin: 5px;
+}
+.bar-pages-link {
+    color: black;
+    text-decoration: none;
+
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    margin:30px;
+}
+* {
+    box-sizing: border-box;
+}
+.myPhoto{
+    float: right;
+    width: 350px;
+    height: 400px;
+    border: #00BAFF 2px solid;
+    margin-right: 220px;
+    margin-top: 100px;
+}
+    pre{
+        margin-left: 40px;
+        width: 40px;
+        font-size: 15px;
+        font-family: Tahoma,Verdana,Segoe,sans-serif; 
+    }
+
+
+                
+    h1{
+        font-size: 40px;  
+        font-family: 'Unispace', sans-serif;
+        font-style:unset; 
+        margin-left: 40px;  
+    }
+
+/*************************************************************/
+  
+/********************** View Courses ***********************/
+
+table, tr, td, th{
+    border: 1px solid; 
+    text-align: center;
+    }
+    table{
+    border-spacing: 0;
+    width: 96%;
+    display: table;
+    margin: 30px;
+    }
+    td{
+        height: 80px;
+        padding: 20px;
+    }
+    table tr:last-child td:first-child, tr:last-child, table {
+    border-bottom-left-radius: 15px;
+    }
+    table tr:last-child td:last-child, tr:last-child, table {
+    border-bottom-right-radius: 15px;
+    }
+    table tr:first-child th:first-child, tr:first-child, table {
+    border-top-left-radius: 15px;
+    }
+    
+    table tr:first-child th:last-child, tr:first-child, table {
+    border-top-right-radius: 15px;
+    }
+    th{
+    background-color: #606060;
+    }
+    tr:nth-child(odd){
+        background-color: #e5e5e5;
+    }
+    td{
+    height: 80px;
+    }
+    
+    .view {
+        color: #00BAFF;
+    }
+
+/***********************************************************/
+
+/********************* View Experience *********************/
+
+.subTitle{
+     margin-top: 50px; 
+     margin-right: 100px; 
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family:Arial , Rounded, MT ;
+}
+.smallSubTitle{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.date{
+    font-weight: bold;
+     font-size: 16px;
+ }
+ .paragraph{
+    margin-top: 40px;
+    font-family: Tahoma;
+}
+sub{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.move{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/******************************************************/
+
+/********************** Add Course ********************/
+
+.courseImage{
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+    height: 750px;
+    width: 500px;
+}
+.form-label-course{
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-bottom: -50px;
+    width: 250px;
+    padding: 0px;
+}
+.form-input-course{
+    padding: 15px;
+    margin-left: 250px;
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: -25px;
+}
+.radio-move{
+    margin-left: 40px;
+}
+.txtarea{
+    border-radius: 10px;
+    border: 2px solid gray;
+    width: 200px;
+    height: 120px;
+}
+.btnExperienceCourse{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+input[type=text],[type=number],[type=date],[type=url],select{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+    width: 200px;
+}
+input[type=submit]{
+    border: none;
+    border-radius: 5px;
+    color:white;
+    background-color: #198754;
+    padding: 8px;
+    width: 200px;
+    margin: 40px;
+}
+input[type=reset]{
+    border: none;
+    border-radius: 5px;
+    color:white;
+    background-color: #dc3545;
+    padding: 8px;
+    width: 200px;
+    margin: 40px;
+}
+
+/*******************************************************/
+
+/******************* Add Experience *******************/
+
+.experienceImage{
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+    height: 600px;
+    width: 450px;
+}
+.form-label-experience{
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-bottom: -50px;
+    width: 250px;
+    padding: 0px;
+}
+.form-input-experience{
+    padding: 15px;
+    margin-left: 250px;
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: -25px;
+}
+.txtarea-experience{
+    border-radius: 10px;
+    border: 2px solid gray;
+    width: 400px;
+    height: 120px;
+    }
+    .btnExperience{
+        margin-left: 100px;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+
+/****************************************************/
+
+/***************** Course_1&2View ********************/
+
+.viewPage{
+    margin-left: 30px;
+}
+.nameCourse{
+    font-size: 40px;
+    font-weight: bold;
+    font-style:unset;
+}
+.infoCourese{
+    margin-top: -20px;
+}
+.image{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.imageCS50{
+    width: 900px;
+    height: 450px;
+    box-shadow: #c2c0c0 3px 5px 5px 5px;
+}
+.imageTypingClub{
+    width: 900px;
+    height: 450px;
+    box-shadow: #c2c0c0 3px 5px 5px 5px;
+}
+
+/****************************************************/
