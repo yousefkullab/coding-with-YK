@@ -1,2 +1,2 @@
-# Simple Programs
-Simple Programs Use Python, Java, JavaScript && Other
+# Simple Design 
+Simple Design Projects Use Html, Css, Js & Other
