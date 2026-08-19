@@ -1,4 +1,14 @@
+# list >>> ordered, mutable, indexed, allows duplicates
+# append, insert, remove, pop, sort, reverse, len, count, clear
+
+# LIST
+# Access       O(1)
+# Search       O(n)
+# Append       O(1) amortized
+# Insert front O(n)
+
 nums = [1,2,3,4,5,6]
+
 
 print(nums)
 
@@ -36,4 +46,6 @@ def traverse_list(nums): # average/worse case O(n)
 
 traverse_list(nums)
 
+print()
 
+print([1,2,3,4,5].pop())
