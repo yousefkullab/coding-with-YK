@@ -27,3 +27,9 @@ print(type(my_set)) # set
 # int(), float(), str(), list(), tuple(), set(), dict().
 
 
+# # Socpe LEGB rule:( Local, Enclosing, Global, Built-in )
+# Local     → inside a function
+# Global    → outside functions
+# LEGB      → Local → Enclosing → Global → Built-in
+# global    → modify a global variable
+# nonlocal  → modify an enclosing variable
