@@ -10,13 +10,13 @@ def calculate_total(expenses):
     return total
 
 def get_highest_expense(expenses):
-    max = expenses[0]["amount"]
+    max_amout = expenses[0]["amount"]
     for i in range(len(expenses)):
-        if max > expenses[i]["amount"]:
+        if max_amout > expenses[i]["amount"]:
             continue
         else:
-            max = expenses[i]["amount"]
-    return max
+            max_amout = expenses[i]["amount"]
+    return max_amout
                 
 
 def get_avg_expense(expenses):
