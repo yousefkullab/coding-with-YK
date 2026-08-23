@@ -13,14 +13,14 @@ class User: # class
     def get_dashboard(self):
         return "Basic dashboard"
 
-    @property  # Property > change method to varablie when call it
+    @property  # Property
     def email(self):
         return self._email
 
     @email.setter # Encapsulation
     def email(self, new_email): 
         if "@" not in new_email:
-            raise ValueError("Invail Email")
+            raise ValueError("Invalid Email")
         self._email = new_email
 
     def __str__(self): # Dunder Method
@@ -74,7 +74,7 @@ class StripePayment(Payment):
 class PayPalPayment(Payment):
 
     def pay(self, amount):
-        return f"Paid {amount} using PalPay"
+        return f"Paid {amount} using PayPal"
 
 
 class Portfolio: # Composion 'has a'
