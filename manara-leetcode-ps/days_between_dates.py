@@ -21,6 +21,9 @@ class Solution:
     # + previous months' days
     # + current day
 
+    # Time Complexity = O(Y + M)
+    # Space Complexity = O(1)
+
     days_in_month = [
         31, 28, 31, 30,
         31, 30, 31, 31,
