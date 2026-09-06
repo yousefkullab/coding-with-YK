@@ -38,6 +38,9 @@ def validPalindrome(s:str) -> bool:
         right -=1
     return True
 
+# Time O(n)
+# Space O(1)
+
 
 if __name__ == '__main__':
     print(validPalindrome("A man, a plan, a canal: Panama"))
