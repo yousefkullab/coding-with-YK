@@ -1,3 +1,6 @@
+# Array good at access elements 
+# Linked List good at instert and delete elements, But used more Memery
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -17,6 +20,19 @@ class LinkedList():
             last_node = last_node.next
         last_node.next = new_node
 
+    def delete(self, head, data):
+        if head == None:
+            return
+        if head.data == data:
+            return head.next
+        current = head
+        while current.next:
+            if current.next.data == data:
+                current.next = current.next.next
+                return head
+            current = current.next
+        return head
+
     def print_list(self):
         current_node = self.head
         while current_node:
@@ -29,4 +45,6 @@ if __name__ == "__main__":
     linked_list.insert(1)
     linked_list.insert(2)
     linked_list.insert(3)
+    linked_list.print_list()  # Output: 1 -> 2 -> 3 -> None
+    linked_list.delete(linked_list.head, 2)
     linked_list.print_list()  # Output: 1 -> 2 -> 3 -> None
