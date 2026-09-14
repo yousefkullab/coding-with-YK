@@ -1,15 +1,15 @@
 def find_max(arr):
-    max = arr[0]
+    maximum = arr[0]
     for i in range(len(arr)):
-        if arr[i] >= max: 
-            max = arr[i]
-    return max
+        if arr[i] >= maximum: 
+            maximum = arr[i]
+    return maximum
 
 def find_sum(arr):
-    sum = 0
+    total = 0
     for i in range(len(arr)):
-        sum += arr[i]
-    return sum
+        total += arr[i]
+    return total
 
 def count_even(arr):
     count = 0

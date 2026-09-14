@@ -10,21 +10,21 @@
 # Output: 3 
 
 # Brute Force O(n^2)
-# def find_middle_index(nums):
+# def findMiddleIndex(nums):
 #     for i in range(len(nums)):
 #         left_sum = sum(nums[:i])
 #         right_sum = sum(nums[i+1:])
 #         if left_sum == right_sum: 
 #             return i
 #     return -1
-# print(find_middle_index([2,3,-1,8,4]))
+# print(findMiddleIndex([2,3,-1,8,4]))
 
 # Problem > we make sum every once in the iteration
 
 # Optimze > Use Prefix Sum
 
 # code 
-def find_middle_index(nums):
+def findMiddleIndex(nums):
     total = sum(nums)
     left_sum = 0
     for i in range(len(nums)):
@@ -35,8 +35,8 @@ def find_middle_index(nums):
     return -1
 
 # Test & Complexity Time O(n), Space O(1)
-print(find_middle_index([2,3,-1,8,4]))
-print(find_middle_index([1,-1,4]))
-print(find_middle_index([2,5]))
+print(findMiddleIndex([2,3,-1,8,4]))
+print(findMiddleIndex([1,-1,4]))
+print(findMiddleIndex([2,5]))
 
 
