@@ -14,33 +14,33 @@ class ListNode:
 # output = 1 > 1 > 2 > 3 > 4 > 4
 
 # Brute Force Time O((n+m) log(n+m)), Space O(n+m)
-class Solution:
-    def mergeTwoLists(self, list1, list2):
-        values = []
+# class Solution:
+#     def mergeTwoLists(self, list1, list2):
+#         values = []
 
-        currnet = list1
-        while currnet:
-            values.append(currnet.val)
-            currnet = currnet.next
+#         currnet = list1
+#         while currnet:
+#             values.append(currnet.val)
+#             currnet = currnet.next
 
-        currnet = list2
-        while currnet:
-            values.append(currnet.val)
-            currnet = currnet.next
+#         currnet = list2
+#         while currnet:
+#             values.append(currnet.val)
+#             currnet = currnet.next
 
-        # Sort values
-        values.sort()
+#         # Sort values
+#         values.sort()
 
-        # bulid new linkedlist
-        dummy = ListNode()
-        tail = dummy
+#         # bulid new linkedlist
+#         dummy = ListNode()
+#         tail = dummy
 
-        for value in values:
-            new_node = ListNode(value)
-            tail.next = new_node
-            tail = tail.next
+#         for value in values:
+#             new_node = ListNode(value)
+#             tail.next = new_node
+#             tail = tail.next
 
-        return dummy.next
+        # return dummy.next
 
 # Problem > the list is sorted while we sorted again with values.sort()
 
