@@ -25,7 +25,7 @@ def hasCycle(head):
 
 # Problem > We Store all node in set Time O(n), Space O(n) 
 
-# Optimze use Floyd's Cycle Detection
+# Optimize use Floyd's Cycle Detection
 def hasCycle(head):
     slow = head
     fast = head

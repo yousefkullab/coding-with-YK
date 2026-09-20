@@ -44,7 +44,7 @@ class ListNode:
 
 # Problem > the list is sorted while we sorted again with values.sort()
 
-# Optimze > use pointer ( dummy, tail)
+# Optimize > use pointer ( dummy, tail)
 
 # code
 class Solution:

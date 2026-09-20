@@ -21,7 +21,7 @@
 
 # Problem > we make sum every once in the iteration
 
-# Optimze > Use Prefix Sum
+# Optimize > Use Prefix Sum
 
 # code 
 def findMiddleIndex(nums):
