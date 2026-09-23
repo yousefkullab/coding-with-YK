@@ -15,7 +15,7 @@
 # s = Solution()
 # print(s.findKthLargest([3,2,1,5,6,4], 2))
 
-# Problem > we use liner sort it is cost O(n)
+# Problem > we use liner sort it is cost O(nlogn)
 
 # Optimize > use priority queue ( heap )
 
