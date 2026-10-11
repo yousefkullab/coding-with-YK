@@ -24,7 +24,6 @@
 # Optimize > use hash > frequency 
 
 # code 
-
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         chars = {}
@@ -45,10 +44,11 @@ class Solution:
         for key, val in chars.items():
             if val != 0:
                 return False
-            
-        return True, chars
+        return True
 
-
+# Test & Complixty, Time O(n) , Space O(n)
 s = Solution()
 print(s.isAnagram("anagram", "nagaram"))
 # print(s.isAnagram("car", "rat"))
+
+
