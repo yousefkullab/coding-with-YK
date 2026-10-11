@@ -46,7 +46,7 @@ class Solution:
             if val != 0:
                 return False
             
-        return True
+        return True, chars
 
 
 s = Solution()
