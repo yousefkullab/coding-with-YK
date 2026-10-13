@@ -21,7 +21,7 @@
 
 # Problem > When Find a common char while return True and this is not right 
 
-# Optimize > use hash > frequency 
+# Optimize > use dict > ( frequency ) 
 
 # code 
 class Solution:

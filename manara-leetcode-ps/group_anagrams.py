@@ -29,7 +29,7 @@
 
 # Problem > we search in a lot of previous groups 
 
-# Optimize > use hash table dict
+# Optimize > use hash table ( dict )
 
 # code 
 class Solution:

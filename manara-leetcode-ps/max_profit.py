@@ -18,7 +18,7 @@
 #                     max = prices[j] - prices[i] 
 #         return max
 
-# Find the BottlenFeck (Problem) 
+# Find the Bottleneck (Problem) 
     # The Problem in nested loop it is cost O(n^2)
 
 # Optimize Best DS or Pattern  {One Pass}

@@ -19,7 +19,7 @@
 
 # Problem > we search for all elements
 
-# Optimize > use hash table
+# Optimize > use dict
 
 # code 
 def twoSum(nums, target):

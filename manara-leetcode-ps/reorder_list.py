@@ -39,7 +39,7 @@ class ListNode():
 
 #         nodes[left].next = None
 
-# Problem > Use extera Array
+# Problem > Use Extera Array
 
 # Optimize 
 #          1.slow/fast pointers 
