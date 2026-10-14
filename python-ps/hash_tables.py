@@ -21,4 +21,4 @@ if "yousef" in users:
     print("Found")
 
 # Note: A set is also hash-table based and is excellent for existence/duplicate checking.
-
+# Hash Tables is tow kinds Map (key value) paris and Set (no repeated values)
