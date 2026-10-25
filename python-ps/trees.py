@@ -6,6 +6,8 @@
 #   - Red Black tree
 #   - N-ary tree
 
+# Traversal ( DFS, BFS )
+
 class Node:
     def __init__(self, val):
         self.val = val
