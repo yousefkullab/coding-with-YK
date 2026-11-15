@@ -35,3 +35,5 @@ class Solution:
             queue.append((left_node.left, right_node.right))
             queue.append((left_node.right, right_node.left))
         return True
+
+# Complixity Time O(n), Space O(w), w: most num of nodes in queue
