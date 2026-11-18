@@ -1,0 +1,21 @@
+{
+    "application": "LogStream",
+    "date": "2026-11-18",
+    "total_requests": 150,
+    "errors": 12,
+    "warnings": 8,
+    "users": [
+        {
+            "id": 1,
+            "action": "login"
+        },
+        {
+            "id": 2,
+            "action": "logout"
+        },
+        {
+            "id": 3,
+            "action": "login"
+        }
+    ]
+}
