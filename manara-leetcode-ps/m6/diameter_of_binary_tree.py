@@ -1,0 +1,35 @@
+# Understand
+# Input root of binary tree
+# Output len of dimeter of BT
+
+# Example
+# root = [1,2,3,4,5]
+# output 3
+
+# dimeter of BT is the len of the longest path between and two nodes in tree
+# Use DFS with Recursion
+# code
+# Definition for a binary tree node.
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+class Solution:
+    def diameterOfBinaryTree(self, root:TreeNode) -> int:
+        max_diameter = 0
+        def dfs(node):
+            nonlocal max_diameter
+            if node is None:
+                return 0
+            left_height = dfs(node.left)
+            right_height = dfs(node.right)
+
+            max_diameter = max(max_diameter, left_height+right_height)
+            return 1 + max(left_height, right_height)
+        dfs(root)
+        return max_diameter
+
+# Complixty Time O(n), Space O(h)
+
+            
