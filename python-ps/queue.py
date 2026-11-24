@@ -8,6 +8,21 @@ class Queue:
         self.front = None
         self.rear = None
 
+    # Time Complixty O(1) enqueue(), dequeue(), peek(), isEmpty() due to to enqueue in the rear and dequeue in the front only one step
+    # Space O(n)
+
+    # Used OF Queue
+    #   * BFS
+    #   * Task/Job Processing
+    #   * Print Queue
+    #   * Request/Server Queuing
+    #   * Producer/Consumer
+    #   * Backtacking
+    #   * Expression Evalution
+
+    # Queue can Be ( Simple, Circulur, Priority, Deque ) 
+    # BFS > Queue > FIFO
+
     def enqueue(self, node):
         if  self.isEmpty():
             new_node = Node(node)
@@ -51,20 +66,5 @@ if __name__ == '__main__':
     print(q.dequeue())
     print(q.dequeue())
     print(q.peek())
-
-# Time Complixty O(1) enqueue(), dequeue(), peek(), isEmpty() due to to enqueue in the rear and dequeue in the front only one step
-# Space O(n)
-
-# Used OF Queue
-#   * BFS
-#   * Task/Job Processing
-#   * Print Queue
-#   * Request/Server Queuing
-#   * Producer/Consumer
-#   * Backtacking
-#   * Expression Evalution
-
-# Queue can Be ( Simple, Circulur, Priority, Deque ) 
-# BFS > Queue > FIFO
 
     
