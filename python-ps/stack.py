@@ -60,10 +60,11 @@ if __name__ == '__main__':
     print(s.isEmpty())
 
 print("$" * 50)
+
 # Stack in PY 
 stack = []
 
-stack.append(10) # pupend(10)sh
+stack.append(10) # append
 stack.append(50)
 stack.append(90)
 
